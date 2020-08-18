@@ -2,10 +2,5 @@ mysql
 configs
 
 */node_modules
-*/.babelrc.json
-*/.eslintrc.*[json,js]
-*/.eslintignore
-*/.prettierrc
-*/nodemon.json
 */dist
 */.cache
