@@ -1,0 +1,29 @@
+{
+  "plugins": [
+    [
+      "module-resolver",
+      {
+        "root": ["./src"],
+        "alias": {
+          "~": "./src"
+        }
+      }
+    ],
+    ["@babel/plugin-transform-runtime", { "regenerator": true, "helpers": true }]
+  ],
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "targets": {
+          "node": "current"
+        },
+        "useBuiltIns": "entry",
+        "corejs": 3,
+        "modules": "cjs"
+      }
+    ],
+    "@babel/preset-react",
+    "@babel/preset-typescript"
+  ]
+}

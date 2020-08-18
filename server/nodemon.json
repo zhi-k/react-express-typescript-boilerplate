@@ -1,0 +1,7 @@
+{
+  "exec": "npm run dev",
+  "watch": ["src/*", "package-lock.json"],
+  "ignore": ["node_modules"],
+  "ext": "ts",
+  "delay": "3000"
+}
