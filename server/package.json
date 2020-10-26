@@ -47,7 +47,7 @@
     "typescript": "^3.9.5"
   },
   "dependencies": {
-    "@babel/runtime": "^7.10.3",
+    "@babel/runtime": "^7.11.2",
     "express": "^4.17.1"
   }
 }
